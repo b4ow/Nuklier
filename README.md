@@ -1,7 +1,7 @@
 # Nuklier
 Scanner Zero-Day
 
-```markdown
+markdown
 # ⚡ NUKLIER v6.0
 ## Ultimate WAF Bypass Scanner
 
@@ -35,7 +35,7 @@ Scanner Zero-Day
 
 ## 🚀 QUICK START
 
-```bash
+bash
 # Clone & Install
 git clone https://github.com/b4ow/nuklier.git
 cd nuklier
