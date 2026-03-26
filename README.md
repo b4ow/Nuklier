@@ -1,5 +1,5 @@
 # Nuklier
-Scanner Zero-Day
+# Scanner Zero-Day
 
 markdown
 # ⚡ NUKLIER v6.0
@@ -15,7 +15,7 @@ markdown
 ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝╚══════╝╚═╝  ╚═╝
 
 ```
-**by b4ow** | [@B4owBit_bot](https://t.me/B4owBit_bot) | **Death System**
+**by b4ow** | [b4ow](https://t.me/b-4ow) | **Death System**
 
 ---
 
@@ -116,6 +116,5 @@ The author is not responsible for any misuse.
 
 ---
 
-NUKLIER v6.0 | Death System | #WAFBypass
-
+NUKLIER v6.0 | Death System 
 ```
