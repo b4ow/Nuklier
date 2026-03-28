@@ -19,6 +19,20 @@ markdown
 
 ---
 
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=b4ow/Nuklier&type=Date)](https://star-history.com/#b4ow/Nuklier&Date)
+
+## 🤝 Contributors
+
+- b4ow (Creator & Maintainer)
+
+## 📞 Contact
+
+- Telegram: [@b4ow](https://t.me/b-4ow)
+- GitHub: [@b4ow](https://github.com/b4ow)
+- Website: [nuklier.rf.gd](https://nuklier.rf.gd)
+
 ## ✨ FEATURES
 
 ```
