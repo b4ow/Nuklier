@@ -159,8 +159,7 @@ nuklier -l targets.txt --auto-exploit --lhost 10.0.0.1
 
 ```text
 ┌─────────────────────────────────────────────────────────────────┐
-│  🌍 GLOBAL AI MEMORY                                           │
-│     Server: 152.42.171.105:8080                                │
+│                                                                    
 │                                                                 │
 │  📚 LEARNING                                                   │
 │     • Every successful payload is shared across all users      │
@@ -265,7 +264,7 @@ MIT License — See LICENSE file
 ---
 
 <p align="center">
-  <b>Hack the planet, not people.</b>
+  <b>No system is safe</b>
 </p>
 
 <p align="center">
