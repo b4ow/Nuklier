@@ -220,9 +220,10 @@ nuklier -l targets.txt --auto-exploit --lhost 10.0.0.1
 ```text
 ┌─────────────────────────────────────────────────────────────────┐
 │  🌐 Website   : https://nuklier.rf.gd                          │
-│  🐙 GitHub    : https://github.com/b4ow/Nuklier                │
-│  📦 PyPI      : https://pypi.org/project/nuklier               │
-│  💬 Telegram  : https://t.me/b-4ow                             │
+│  🐙 GitHub    : https://github.com/b4ow/Nuklier                │   
+    💬 Telegram  : https://t.me/b-4ow 
+│         
+│                            
 └─────────────────────────────────────────────────────────────────┘
 ```
 
